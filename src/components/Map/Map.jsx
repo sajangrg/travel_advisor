@@ -13,7 +13,7 @@ const Map = ({setCoordinates, setBounds, coordinates }) => {
   return(
     <div className={classes.mapContainer}>
       <GoogleMapReact
-        bootstrapURLKeys={{key: 'AIzaSyBPN13Rm9Q_638T7fHjUXY8Ca3qTHDpwNY'}} // 20 July (90 Days expiry)
+        bootstrapURLKeys={{key: 'your_google_maps_api_keys'}} // 20 July (90 Days expiry)
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
